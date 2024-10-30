@@ -1,0 +1,41 @@
+#dashboard_commenter_counter .no_display {
+  display: none;
+}
+
+#dashboard_commenter_counter .clear {
+  clear: both;
+}
+
+#dashboard_commenter_counter .inside {
+  margin: 0;
+  padding: 0;
+}
+
+#dashboard_commenter_counter .commenter, #dashboard_commenter_counter .more {
+  border-top: 1px solid;
+  border-color: #dfdfdf;
+}
+
+#dashboard_commenter_counter img {
+  float: left;
+  margin: 10px;
+}
+#dashboard_commenter_counter .wrap {
+  margin-top: 15px;
+}
+
+#dashboard_commenter_counter .commenter:nth-child(odd) {
+  background: #fcfcfc;
+}
+
+#dashboard_commenter_counter .more {
+  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 5px 0;
+}
+#dashboard_commenter_counter .more a, #dashboard_commenter_counter .more a:hover {
+  text-decoration: none;
+  color: #333;
+  font-family: Georgia, 'Times New Roman', 'Bitstream Charter', Times, serif;
+}
